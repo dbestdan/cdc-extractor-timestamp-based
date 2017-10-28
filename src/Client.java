@@ -33,11 +33,13 @@ public class Client {
 				}
 		else if(clientName.equals("client2")) {
 			clientTables = prop.getProperty("client2");
+		}else if(clientName.equals("client3")) {
+			clientTables = prop.getProperty("client3");
 		}
 		
 		String[] clientTablesArray = clientTables.split(",");
 		
-		for(int i=0; i<clientTablesArray.length-1;i++) {
+		for(int i=0; i<clientTablesArray.length;i++) {
 			String tableNameAndThreadSize = clientTablesArray[i];
 			String[] tableNameAndThreadSizeArray = tableNameAndThreadSize.split("-");
 			String tableName = tableNameAndThreadSizeArray[0];

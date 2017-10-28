@@ -1,2 +1,3 @@
 client1=bmsql_warehouse-w-1,bmsql_district-d-1,bmsql_customer-c-1,bmsql_history-h-1,bmsql_oorder-o-1,bmsql_stock-s-1
-client2=bmsql_new_order-no-1,bmsql_order_line-ol-2
+client2=bmsql_new_order-no-1
+client3=bmsql_order_line-ol-2
